@@ -1,0 +1,28 @@
+* { 
+    margin: 0; 
+    padding: 0;
+}
+
+body, html { 
+    height: 100%; 
+    overflow: hidden;
+    background-color: white;
+}
+
+#whiteboard {
+    position: absolute;
+    left: 10%;
+    width: 91%;
+    top: 1%;
+    height: 98%;
+    border: 1px dotted black;
+}
+
+.controls {
+    position: absolute;
+    left: 1%;
+    width: 8%;
+    top: 1%;
+    height: 98%;
+    overflow: hidden;
+}
